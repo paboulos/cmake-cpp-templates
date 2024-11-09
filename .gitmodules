@@ -1,6 +1,0 @@
-[submodule "external/json"]
-	path = external/json
-	url = https://github.com/nlohmann/json
-[submodule "external/cmake-sfml-project"]
-	path = external/cmake-sfml-project
-	url = https://github.com/paboulos/cmake-sfml-project.git
