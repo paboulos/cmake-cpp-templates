@@ -57,7 +57,7 @@
 ## Basic Commands for this Project from a Linux Terminal
 
 - After the project is cloned from github  
-  ```cd cpp_datastructures```  
+  ```cd cmake-cpp-templates```  
   ```mkdir build```  
   ```cmake -B ./build -S . -DCMAKE_BUILD_TYPE=Debug```  
   ```cmake --build ./build --clean-first -v```  
