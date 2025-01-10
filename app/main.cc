@@ -9,6 +9,7 @@
 #include "position.hpp"
 #include "2d_compute.hpp"
 #include "2d_object.hpp"
+
 int main()
 {
     std::cout << "Project name " << project_name << std::endl;

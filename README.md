@@ -5,6 +5,7 @@
 - The configured directory passes a C++ config file as input to CMake to generates a C++ project description file.  
   It will be saved in the build directory.
 - Cmake scripts go in the cmake subdirectory
+- CTest C++ unit testing with [Catch2 framework](https://github.com/catchorg/Catch2/tree/devel?tab=readme-ov-file)
 - Uses some third-party modules like nlohmann_json and SFML.
   - The external CMake projects are downloaded into build dir from GitHub using FetchContent feature.  
 - Creates a geometry library that demonstrates a more advanced feature of C++ by using class and function templates.
@@ -64,3 +65,10 @@
 
 - Run the executable  
   ```./build/bin/Executable```
+
+- Run the unit tests with Catch2 by setting the CMake variable ENABLE_TESTING to ON
+  1. ```./build/bin/unit_tests```
+
+- Run the unit tests with CTest by setting the CMake variable ENABLE_TESTING to ON
+  1. ```cd ./build```
+  2. ```ctest```

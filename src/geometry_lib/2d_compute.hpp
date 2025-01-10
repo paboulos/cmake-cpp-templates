@@ -1,6 +1,11 @@
 #pragma once
 #include <iostream>
 #include <type_traits>
+#include <cstdint>
+
+uint32_t factorial(uint32_t number);
+uint64_t fibonacci(uint64_t number);
+
 namespace Inventory
 {
 /**
